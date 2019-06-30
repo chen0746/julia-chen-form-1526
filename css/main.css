@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+    font-size: 1rem;
+}
+
+form {
+    background-color: #fff;
+    max-width: 50rem;
+    padding: 1rem;
+    margin: 1em;
+}
+
+form,
+fieldset,
+input,
+textarea {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+legend {
+    font-size: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+fieldset {
+    background-color: #F5F5F5;
+    padding: 1rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    line-height: 2rem;
+}
+
+#submit-button {
+    background-color: #6495ED;
+    font-size: 1rem;
+    color: #fff;
+    line-height: 2.5rem;
+    border-radius: 5px;
+    padding: 0 2rem;
+    /*    width: 100%;*/
+}
+
+form label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.box {
+    margin: 2.5%;
+}
+
+@media screen and (min-width: 25rem) {
+    form {
+        padding: 2rem 4rem;
+        margin: auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .box:nth-child(2),
+    .box:nth-child(3) {
+        width: 45%;
+        float: left;
+    }
+
+    .box:nth-child(4) {
+        clear: both;
+    }
+
+    #submit-button {
+        width: auto;
+        padding: 0 2rem;
+    }
+
+}
